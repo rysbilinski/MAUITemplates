@@ -13,8 +13,8 @@
 		  <CustomParameter Name="$PageName$" Value="Home"/>
 	  </CustomParameters>
     <References />
-    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">HomePage.xaml</ProjectItem>
-	  <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">HomePage.xaml.cs</ProjectItem>
-	  <ProjectItem SubType="Code" TargetFileName="$PageName$ViewModel.cs" ReplaceParameters="true">HomePageViewModel.cs</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Page.xaml" ReplaceParameters="true">HomePage.xaml</ProjectItem>
+	  <ProjectItem SubType="Code" TargetFileName="$fileinputname$Page.xaml.cs" ReplaceParameters="true">HomePage.xaml.cs</ProjectItem>
+	  <ProjectItem SubType="Code" TargetFileName="$fileinputname$ViewModel.cs" ReplaceParameters="true">HomeViewModel.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

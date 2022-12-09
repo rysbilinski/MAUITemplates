@@ -2,7 +2,7 @@ namespace $rootnamespace$;
 
 public partial class $safeitemname$ : BaseViewModelPage
 {
-	public $safeitemname$($PageName$ViewModel vm)
+	public $safeitemname$($fileinputname$ViewModel vm)
 	{
 		InitializeComponent();
 

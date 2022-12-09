@@ -7,9 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-	<Target Name="Refit Generation" AfterTargets="PostBuildEvent" >
-		<Exec Command="powershell Compress-Archive &quot;$(SolutionDir)Templates\BaseMAUIMVVM&quot; &quot;$(SolutionDir)Templates\BaseMAUIMVVM.zip&quot; -Force" />
-		<Exec Command="powershell Compress-Archive &quot;$(SolutionDir)Templates\MAUIBaseViewModelPage&quot; &quot;$(SolutionDir)Templates\MAUIBaseViewModelPage.zip&quot; -Force" />
+	<Target Name="Zip Templates" AfterTargets="PostBuildEvent" >
+		<Exec Command="powershell Compress-Archive &quot;$(SolutionDir)Templates\ProjectTemplates\BaseMAUIMVVM\*&quot; &quot;$(SolutionDir)Templates\ProjectTemplates\BaseMAUIMVVM.zip&quot; -Force" />
+		<Exec Command="powershell Compress-Archive &quot;$(SolutionDir)Templates\ItemTemplates\MAUIBaseViewModelPage\*&quot; &quot;$(SolutionDir)Templates\ItemTemplates\MAUIBaseViewModelPage.zip&quot; -Force" />
+	</Target>
+
+	<Target Name="Copy Templates" AfterTargets="PostBuildEvent" >
+		<Exec Command="powershell Copy-Item -Path &quot;$(SolutionDir)Templates\ProjectTemplates\*&quot; -Destination &quot;${env:USERPROFILE\Documents}\'Visual Studio 2022\Templates\ProjectTemplates\C#'&quot; -Recurse -Force" />
+		<Exec Command="powershell Copy-Item -Path &quot;$(SolutionDir)Templates\ItemTemplates\*&quot; -Destination &quot;${env:USERPROFILE\Documents}\'Visual Studio 2022\Templates\ItemTemplates\C#'&quot; -Recurse -Force" />
 	</Target>
 
 </Project>
