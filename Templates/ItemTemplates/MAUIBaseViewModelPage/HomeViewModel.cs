@@ -1,8 +1,8 @@
-﻿namespace $rootnamespace$.ViewModels;
+﻿namespace $projectname$.ViewModels;
 
 public class $fileinputname$ViewModel : BaseViewModel
 {
-    public $fileinputname$Model()
+    public $fileinputname$ViewModel()
 	{
         
     }
