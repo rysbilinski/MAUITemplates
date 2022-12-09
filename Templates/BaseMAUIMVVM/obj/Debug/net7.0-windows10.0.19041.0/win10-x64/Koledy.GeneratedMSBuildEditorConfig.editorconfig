@@ -1,0 +1,48 @@
+is_global = true
+build_property.RefitInternalNamespace = $safeprojectname$
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = $safeprojectname$
+build_property.ProjectDir = C:\Dev\MAUITemplates\BaseMAUIMVVM\
+
+[C:/Dev/MAUITemplates/BaseMAUIMVVM/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = $safeprojectname$.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Dev/MAUITemplates/BaseMAUIMVVM/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = $safeprojectname$.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Dev/MAUITemplates/BaseMAUIMVVM/RESOURCES/STYLES/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = $safeprojectname$.RESOURCES.STYLES.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = RESOURCES\STYLES\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = RESOURCES\STYLES\Colors.xaml
+
+[C:/Dev/MAUITemplates/BaseMAUIMVVM/RESOURCES/STYLES/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = $safeprojectname$.RESOURCES.STYLES.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = RESOURCES\STYLES\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = RESOURCES\STYLES\Styles.xaml
+
+[C:/Dev/MAUITemplates/BaseMAUIMVVM/VIEWS/PAGES/BaseViewModelPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = $safeprojectname$.VIEWS.PAGES.BaseViewModelPage.xaml
+build_metadata.AdditionalFiles.TargetPath = VIEWS\PAGES\BaseViewModelPage.xaml
+build_metadata.AdditionalFiles.RelativePath = VIEWS\PAGES\BaseViewModelPage.xaml
+
+[C:/Dev/MAUITemplates/BaseMAUIMVVM/VIEWS/PAGES/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = $safeprojectname$.VIEWS.PAGES.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = VIEWS\PAGES\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = VIEWS\PAGES\HomePage.xaml

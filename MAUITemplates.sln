@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateZipper", "TemplateZipper\TemplateZipper.csproj", "{334B101D-9C2E-435D-8212-1222124BBDEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D21C328-BC63-4387-BC52-62FDFEE5004C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334B101D-9C2E-435D-8212-1222124BBDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334B101D-9C2E-435D-8212-1222124BBDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334B101D-9C2E-435D-8212-1222124BBDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334B101D-9C2E-435D-8212-1222124BBDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51FEDC98-E0EC-4B65-926E-566E192E7CF1}
+	EndGlobalSection
+EndGlobal
