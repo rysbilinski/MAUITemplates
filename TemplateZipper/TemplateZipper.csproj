@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,7 +8,8 @@
   </PropertyGroup>
 
 	<Target Name="Refit Generation" AfterTargets="PostBuildEvent" >
-			<Exec Command="powershell Compress-Archive &quot;$(SolutionDir)Templates\BaseMAUIMVVM&quot; &quot;$(SolutionDir)Templates\BaseMAUIMVVM.zip&quot;" />
+		<Exec Command="powershell Compress-Archive &quot;$(SolutionDir)Templates\BaseMAUIMVVM&quot; &quot;$(SolutionDir)Templates\BaseMAUIMVVM.zip&quot; -Force" />
+		<Exec Command="powershell Compress-Archive &quot;$(SolutionDir)Templates\MAUIBaseViewModelPage&quot; &quot;$(SolutionDir)Templates\MAUIBaseViewModelPage.zip&quot; -Force" />
 	</Target>
 
 </Project>

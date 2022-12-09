@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+	
+  <TemplateData>	  
+    <DefaultName>MAUI Base View Model Page.xaml</DefaultName>
+    <Name>MAUI Base View Model Page</Name>
+    <Description>Creates a MAUI Content page that inherits BaseViewModel Page and creates a corresponding view model</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+	  <CustomParameters>
+		  <CustomParameter Name="$PageName$" Value="Home"/>
+	  </CustomParameters>
+    <References />
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">HomePage.xaml</ProjectItem>
+	  <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">HomePage.xaml.cs</ProjectItem>
+	  <ProjectItem SubType="Code" TargetFileName="$PageName$ViewModel.cs" ReplaceParameters="true">HomePageViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
