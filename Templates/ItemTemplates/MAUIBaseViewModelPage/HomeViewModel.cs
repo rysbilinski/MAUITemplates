@@ -1,4 +1,4 @@
-﻿namespace $projectname$.ViewModels;
+﻿namespace $defaultnamespace$.ViewModels;
 
 public class $fileinputname$ViewModel : BaseViewModel
 {

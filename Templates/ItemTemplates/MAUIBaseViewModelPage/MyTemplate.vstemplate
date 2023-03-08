@@ -15,7 +15,7 @@
     <References />
     <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Page.xaml" ReplaceParameters="true">HomePage.xaml</ProjectItem>
 	  <ProjectItem SubType="Code" TargetFileName="$fileinputname$Page.xaml.cs" ReplaceParameters="true">HomePage.xaml.cs</ProjectItem>
-	  <ProjectItem SubType="Code" TargetFileName="../../ViewModels/$fileinputname$ViewModel.cs" ReplaceParameters="true">HomeViewModel.cs</ProjectItem>
+	  <ProjectItem SubType="Code" TargetFileName="/ViewModels/$fileinputname$ViewModel.cs" ReplaceParameters="true">HomeViewModel.cs</ProjectItem>
 	  
   </TemplateContent>
 </VSTemplate>
